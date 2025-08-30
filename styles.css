@@ -1,0 +1,89 @@
+.container{
+    background-color: rgb(245, 215, 79);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-family: 'ExtraBold';
+}
+
+@font-face {
+    font-family: 'ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Italic';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Var';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+.card{
+    max-width: 300px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow:  10px 10px black;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card-image{
+    border-radius: 10px;
+}
+
+.card-info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info button{
+    width: fit-content;
+    border: none;
+    background-color: rgb(245, 215, 79);
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-info a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p{
+    color: gray;
+    font-family: 'Ita;ic';
+}
+
+
+.avatar{
+    height: 45px;
+    margin-top: 10px;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar span{
+    font-weight: bold;
+    font-size: 17px;
+}
